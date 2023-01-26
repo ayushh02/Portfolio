@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://kit.fontawesome.com/9650a62e47.js" ></script>
+ <link
+  rel="stylesheet" href="styles.css"/>
+  <script src="https://kit.fontawesome.com/5a0c76fb49.js" crossorigin="anonymous"></script>
+  <title>Personal Portfolio Webpage</title>
+</head>
+<body>
+<div class="hero">
+    <!-- NAVBAR -->
+  <nav id="navbar">
+    <img src="/survey form/bookmark.png" class="logo">
+    <ul id="sidemenu">
+        <li><a href="#home">HOME</a></li>
+      <li><a href="#about">ABOUT</a></li>
+      <li><a href="#work">WORK</a></li>
+      <li><a href="#contact">CONTACT</a></li>
+      <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+    </ul>
+    <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+  </nav>
+
+  <!-- HOME SECTION -->
+  <div id="home" class="detail">
+    <h1>Hey,Im <span id="a">Ayush</span><span id="b"> Kumar</span></h1>
+    <h1 id="c">/Devloper</h1>
+    <p>Hola! This is my official portfolio to show all my 
+        <br>Details and work expirience in web develpoment.
+        <br>I'm learning new technologies.
+    </p>
+    <a href="/survey form/resume_ayush_kumar (1).pdf">Download CV</a>
+  </div>
+  <div class="images">
+    <img src="/survey form/cutieee_bg.png" class="shape">
+    <img src="/survey form/IMG-20230119-WA0005-removebg-preview (1).png" class="ayush">
+  </div>
+</div>
+
+<!-- ABOUT SECTION -->
+<div class="aboutme" id="about" >
+<div class="container">
+    <div class="row">
+        <div class="about-col1">
+            <img src="/survey form/about_img.png" alt="">
+        </div>
+        <div class="about-col2">
+            <h1 id="d">/About</h1>
+            <p id="e">I'm a 3rd year student at KIIT University pursuing my Bachelor's in computer science.
+                <br>
+            </p>
+        
+            <div class="tab-titles">
+                <p class="tab-links active-link" onclick="opentab('education')">Education</p>
+                <p class="tab-links" onclick="opentab('skills')">Skills</p>
+                <p class="tab-links" onclick="opentab('experience')">Experience</p>
+            </div>
+           
+            
+
+            <div class="tab-contents active-tab" id="education">
+                <ul><li><span>School</span><br>79.8% in class XII | 2020 <br>82.6% in class X | 2018</li></ul>
+                <ul><li><span>College</span><br>9.04cgpa|till 5th sem</li></ul>
+                <ul><li><span>Courses</span><br>X,Y,Z</li></ul>
+            
+            </div>
+            <div class="tab-contents" id="skills" >
+                <ul><li><span>Frontend:</span><br>HTML,CSS,Javascript,Bootstrap,React</li></ul>
+                <ul><li><span>Backend:</span><br>Mysql,Node.js,Express.js,Mongodb</li></ul>
+                <ul><li><span>Programming Languages:</span><br>Java,Python</li></ul>
+            
+            </div>
+            <div class="tab-contents" id="experience">
+                <ul><li><span>NONE</span><br></li></ul>
+              
+            
+            </div>
+        </div>
+        
+        
+    </div>
+    
+</div>
+<div id="f"><img src="/survey form/worm.png" alt=""></div>
+</div>
+
+<!-- WORK SECTION -->
+
+<div class="portfolio" id="work">
+    <div class="container">
+     <h1 class="sub-title"><h1>/My <span>Work</span></h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="/survey form/Screenshot 2023-01-20 104120.png" alt="">
+                <div class="layer">
+                    <h2>Project 1</h2>
+                    <p>This is project 1.</p>
+                    <a href="#"><i class="fa-solid fa-square-arrow-up-right"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="/survey form/Screenshot 2023-01-20 104224.png" alt="">
+                <div class="layer">
+                    <h2>Project 2</h2>
+                    <p>This is project 2.</p>
+                    <a href="#"><i class="fa-solid fa-square-arrow-up-right"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="/survey form/79515924-project-startup-flat-vector-illustration-design-project-management-launching-implementation-design-f.webp" alt="">
+                <div class="layer">
+                    <h2>Project 3</h2>
+                    <p>This is project 3.</p>
+                    <a href="#"><i class="fa-solid fa-square-arrow-up-right"></i></a>
+                </div>
+            </div>
+        </div>
+      <a href="#" class="btn">See more</a>
+  </div>
+</div>
+
+<!-- CONTACT SECTION -->
+<div id="contact" class="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+<h1 class="sub-title"><span id="a">Contact</span><span id="b"> Me</span></h1>
+<p><i class="fa-solid fa-paper-plane"></i>ayush25602@gmail.com</p>
+<p><i class="fa-solid fa-square-phone"></i>9045524672</p>
+<div class="social-icons">
+    <a href="https://www.linkedin.com/in/ayush-kumar-38138b237/"><i class="fa-brands fa-linkedin"></i></a>
+    <a href="https://twitter.com/ayushhh_02"><i class="fa-brands fa-twitter"></i></a>
+    <a href="https://github.com/ayushh02"><i class="fa-brands fa-github"></i></a>
+    <a href="https://leetcode.com/ayush256/"><i class="fa-solid fa-code"></i></i></a>
+</div>
+            </div>
+            <div class="contact-right">
+                <form name='submit-to-google-sheet' >
+                    <input type="text" name="name" placeholder="Your name" required>
+                    <input type="email" name="email" placeholder="Your email" required>
+                    <textarea name="message" rows="6" placeholder="Your message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></spanid></span>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+
+<script>
+    var tablinks=document.getElementsByClassName("tab-links");
+    var tabcontents=document.getElementsByClassName("tab-contents");
+    
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link")
+        }
+
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+</script>
+
+
+  <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbyKXLL4mEU8f5uXRGm9IrjywlKLpuhBCL5X1_2PzDI8DCH4_jhdqoMxKQV_3KxhCuweaA/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg= document.getElementById("msg")
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML="Message Sent Successfully."
+            setTimeout(function(){
+                msg.innerHTML=""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+  <script>
+
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right="0";
+    }
+
+    function closemenu(){
+        sidemenu.style.right="-200px";
+    }
+
+  </script>
+  </body>
+  </html>

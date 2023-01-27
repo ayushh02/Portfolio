@@ -539,20 +539,23 @@ nav .fa-solid {
   }
 
   /* ABOUT */
-  #about{
+#about{
     padding: 0;
+    align-items: center;
+   
   }
-
+  .about-col1{
+    text-align: center
+  }
   .about-col1 img {
     width: 200px;
     height: 200px;
-    align-items: center;
     margin-left: 10px;
   }
 
   #d {
-    margin-left: 100px;
     font-size: 40px;
+    text-align: center;
   }
 
   #e {

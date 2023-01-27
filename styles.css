@@ -572,6 +572,12 @@ nav .fa-solid {
 
   .tab-titles {
     margin: 10px 20px 40px;
+    justify-content: center;
+  }
+
+  .tab-contents.active-tab {
+    display: block;
+    padding-left: 20px;
   }
 
   .tab-contents ul li {

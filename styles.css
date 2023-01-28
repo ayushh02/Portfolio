@@ -376,7 +376,7 @@ p {
 .contact-right {
   flex-basis: 50%;
   margin-right: 0px;
-  
+
 }
 
 .contact-left h1 {
@@ -451,7 +451,7 @@ form textarea {
 .btn2 {
   font-size: 16px;
   text-align: center;
-  margin-top: 10px  ;
+  margin-top: 10px;
 }
 
 #msg {
@@ -468,7 +468,7 @@ nav .fa-solid {
 
 /* CSS FOR SMALL SCREEN */
 
-@media only screen and (max-width:600px) {
+@media only screen and (max-width:700px) {
 
   /* NAV */
   nav {
@@ -521,9 +521,10 @@ nav .fa-solid {
   }
 
   /* HOME */
-  .hero{
+  .hero {
     height: auto;
   }
+
   .images {
     width: 0;
     height: 0;
@@ -539,14 +540,16 @@ nav .fa-solid {
   }
 
   /* ABOUT */
-#about{
+  #about {
     padding: 0;
     align-items: center;
-   
+
   }
-  .about-col1{
+
+  .about-col1 {
     text-align: center
   }
+
   .about-col1 img {
     width: 200px;
     height: 200px;
@@ -558,7 +561,7 @@ nav .fa-solid {
     text-align: center;
   }
 
- #e {
+  #e {
     text-align: center;
     margin-left: 10px;
     margin-right: 10px;
@@ -601,7 +604,7 @@ nav .fa-solid {
 
   .portfolio .container h1 {
     font-size: 40px;
-   margin-left: 0px;
+    margin-left: 0px;
     margin-bottom: 30px;
     text-align: center;
 
@@ -638,7 +641,7 @@ nav .fa-solid {
 
   .contact-left p i {
     margin-top: 0px;
-  
+
     font-size: 20px;
   }
 
@@ -681,16 +684,19 @@ nav .fa-solid {
     text-align: center;
     padding-bottom: 10px;
   }
-   #msg {
+
+  #msg {
     text-align: center;
   }
-  
-  @media only screen and (min-width:601px) and (max-width:1000px) {
+}
+@media only screen and (min-width:701px) and (max-width:1000px) {
+  .logo {
+    margin-left: -33px;
+  }
     .images {
       width: 40%;
       height: 70%;
       right: -10px;
-
     }
 
     .detail h1 {
@@ -704,6 +710,7 @@ nav .fa-solid {
       margin-left: -40px;
     }
 
+   
     #d {
       font-size: 45px;
     }
@@ -716,15 +723,16 @@ nav .fa-solid {
 
     .portfolio .container h1 {
       font-size: 45px;
-      
-
+      margin-left: 60px;
     }
 
     .contact-left {
-      margin-left: 10px;
       margin-top: 15px;
+      margin-left: 65px;
     }
-
+    .contact-left h1{
+    margin-left: -10px;
+    }
     .contact-right {
       margin-right: 0px;
     }
@@ -741,11 +749,5 @@ nav .fa-solid {
     .social-icons a {
       font-size: 35px;
     }
-
-
-
-
-   
-
 
   }

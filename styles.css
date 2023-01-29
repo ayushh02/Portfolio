@@ -305,6 +305,7 @@ p {
   overflow: hidden;
   display: flex;
   align-items: center;
+  text-align: center;
   justify-content: center;
   flex-direction: column;
   padding: 0 10px;
@@ -316,6 +317,11 @@ p {
 .layer h2 {
   font-weight: bolder;
   margin-bottom: 20px;
+  text-align: center;
+}
+
+.layer p{
+  margin: 0 15px;
 }
 
 .layer a {
@@ -328,7 +334,7 @@ p {
   width: 60px;
   height: 60px;
   border-radius: 50%;
-  text-align: center;
+  align:center;
 
 }
 
